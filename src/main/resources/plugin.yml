@@ -1,0 +1,9 @@
+name: ProjectG
+version: '${project.version}'
+main: me.ducky.projectg.ProjectG
+commands:
+  menu:
+    description: Opens a menu
+    usage: /<command> [player]
+    aliases:
+      - m

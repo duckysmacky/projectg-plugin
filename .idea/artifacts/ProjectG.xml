@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProjectG">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjectG</output-path>
+    <root id="archive" name="ProjectG.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
