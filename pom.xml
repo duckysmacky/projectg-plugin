@@ -6,7 +6,7 @@
 
     <groupId>me.ducky</groupId>
     <artifactId>ProjectG</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>ProjectG</name>
@@ -39,7 +39,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputFile>C:\Users\Platonova\Documents\Minecraft Stuff\Minecraft Servers\MayhemCraft Servers\MayhemCraft Project G\plugins\ProjectG.jar</outputFile>
+                            <outputFile>C:\Users\nikdor\Documents\Minecraft\Servers\PvP Servers\Project G 2.0\plugins\ProjectG-1.1.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>

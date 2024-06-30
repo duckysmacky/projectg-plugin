@@ -1,12 +1,11 @@
-package com.duckysmacky.projectg;
+package me.ducky.projectg;
 
-import com.duckysmacky.projectg.functions.GadgetEquipFunction;
-import com.duckysmacky.projectg.functions.GunEquipFunction;
-import com.duckysmacky.projectg.listeners.MenuClickListener;
-import com.duckysmacky.projectg.menu.*;
-import com.duckysmacky.projectg.util.LocationsMenuUtility;
-import com.duckysmacky.projectg.util.MapSettingsUtility;
-import com.duckysmacky.projectg.util.TeamsMenuUtility;
+import me.ducky.projectg.functions.GadgetEquipFunction;
+import me.ducky.projectg.functions.GunEquipFunction;
+import me.ducky.projectg.listeners.MenuClickListener;
+import me.ducky.projectg.util.LocationsMenuUtility;
+import me.ducky.projectg.util.MapSettingsUtility;
+import me.ducky.projectg.util.TeamsMenuUtility;
 import me.ducky.projectg.menu.*;
 import org.bukkit.plugin.java.JavaPlugin;
 

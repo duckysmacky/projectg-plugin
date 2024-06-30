@@ -1,6 +1,6 @@
-package com.duckysmacky.projectg.menu;
+package me.ducky.projectg.menu;
 
-import com.duckysmacky.projectg.util.GetMenuUtility;
+import me.ducky.projectg.util.GetMenuUtility;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

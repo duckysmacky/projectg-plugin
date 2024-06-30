@@ -1,11 +1,11 @@
-package com.duckysmacky.projectg.listeners;
+package me.ducky.projectg.listeners;
 
-import com.duckysmacky.projectg.functions.KitEquipFunction;
-import com.duckysmacky.projectg.menu.ItemCatalog;
-import com.duckysmacky.projectg.util.GetMenuUtility;
-import com.duckysmacky.projectg.util.LocationsMenuUtility;
-import com.duckysmacky.projectg.util.MapSettingsUtility;
-import com.duckysmacky.projectg.util.TeamsMenuUtility;
+import me.ducky.projectg.functions.KitEquipFunction;
+import me.ducky.projectg.menu.ItemCatalog;
+import me.ducky.projectg.util.GetMenuUtility;
+import me.ducky.projectg.util.LocationsMenuUtility;
+import me.ducky.projectg.util.MapSettingsUtility;
+import me.ducky.projectg.util.TeamsMenuUtility;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;

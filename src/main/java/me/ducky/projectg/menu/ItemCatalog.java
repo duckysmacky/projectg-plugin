@@ -1,6 +1,6 @@
-package com.duckysmacky.projectg.menu;
+package me.ducky.projectg.menu;
 
-import com.duckysmacky.projectg.util.GetButtonUtility;
+import me.ducky.projectg.util.GetButtonUtility;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -17,7 +17,7 @@ public class ItemCatalog {
     private static String[][] kitCatalog = {
             // 0 - Kit Name, 1 - Class Id, 2 - Kit Id, 3 - Rarity Id, 4 - Description, 5 - Icon Id
             // Tiers: Basic, Advanced, Complex, Professional, Elite
-            {"Soldier Kit", "assault", "soldier", "basic", "&fA swiss knife of a kit - everything you need to fight, survive and win in the same place", "IRON_HELMET"},
+            {"Soldier Kit", "assault", "assault", "basic", "&fA swiss knife of a kit - everything you need to fight, survive and win in the same place", "IRON_HELMET"},
             {"Juggernaut Kit", "assault", "juggernaut", "basic", "&fProvides good protection but lacks in useful utility", "DIAMOND_CHESTPLATE"},
             {"Breach Kit", "assault", "breach", "advanced", "&fGood utility to remove obstacles, breach walls and initiate fights", "SHIELD"},
             {"Smoke Kit", "assault", "smoke", "advanced", "&fExcellent utility to block enemies line of sight and deny area with special gas grenades", "WEB"},
@@ -146,29 +146,26 @@ public class ItemCatalog {
             {"Laser Pistol", "special", "TECHGUNS_LASERPISTOL", "8843:125", "12", "legendary"}
     };
 
-    ItemStack item = new ItemStack(Material.STONE_SPADE);
     private static String[][] gadgetCatalog = {
             // 0 - Gadget Name, 1 - Gadget Id, 2 - Amount, 3 - Rarity
             {"Water Bucket", "WATER_BUCKET", "1", "common"},
             {"Flint and Steel", "FLINT_AND_STEEL", "1", "common"},
-            {"Horseshoe Magnet", "HBM_HORSESHOE_MAGNET", "1", "common"},
             {"Flashlight", "FLASHLIGHT_FLASHLIGHT", "1", "common"},
-            {"Golden Pickaxe", "GOLD_PICKAXE", "1", "uncommon"},
-            {"Hard Cover", "HBM_HADRON_PLATING_STRIPED", "32", "uncommon"},
-            {"Handheld Geiger Counter", "HBM_GEIGER_COUNTER", "1", "uncommon"},
-            {"RadAway Bag", "HBM_RADAWAY", "5", "uncommon"},
+            {"Hard Cover", "HBM_HADRON_PLATING_STRIPED", "64", "uncommon"},
             {"Kevlar Insert", "HBM_INSERT_KEVLAR", "1", "rare"},
             {"Slime Pads", "HBM_PADS_SLIME", "1", "rare"},
             {"Trench Mask", "HBM_MASK_PISS", "1", "rare"},
-            {"Golden Apple", "GOLDEN_APPLE", "3", "rare"},
-            {"Chorus Fruit", "CHORUS_FRUIT", "10", "rare"},
-            //{"XSAPI Insert", "HBM_INSERT_XSAPI", "1", "epic"},
+            {"Golden Apple", "GOLDEN_APPLE", "5", "rare"},
+            {"Chorus Fruit", "CHORUS_FRUIT", "16", "rare"},
+            {"Power Hammer", "TECHGUNS_POWERHAMMER", "1", "epic"},
+            {"XSAPI Insert", "HBM_INSERT_XSAPI", "1", "epic"},
             {"Ender Pearl", "ENDER_PEARL", "3", "epic"},
             {"Mining Charge", "TECHGUNS_EXPLOSIVE_CHARGE", "5", "epic"},
             {"Claymore", "SECURITYCRAFT_CLAYMORE", "5", "epic"},
             {"Velvet Band-Aid", "HBM_BANDAID", "1", "legendary"},
-            {"8 Inch Blade Autoinjector", "HBM_INJECTOR_KNIFE", "1", "legendary"},
-            {"Elytra", "ELYTRA", "1", "legendary"}
+            //{"8 Inch Blade Autoinjector", "HBM_INJECTOR_KNIFE", "1", "legendary"},
+            {"Elytra", "ELYTRA", "1", "legendary"},
+            {"Jumppack", "TECHGUNS_JUMPPACK", "1", "legendary"}
     };
 
     private static String[][] teleportsCatalog = {

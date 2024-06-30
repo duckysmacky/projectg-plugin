@@ -1,4 +1,4 @@
-package com.duckysmacky.projectg.util;
+package me.ducky.projectg.util;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

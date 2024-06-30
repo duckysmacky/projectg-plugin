@@ -1,6 +1,6 @@
-package com.duckysmacky.projectg.functions;
+package me.ducky.projectg.functions;
 
-import com.duckysmacky.projectg.menu.ItemCatalog;
+import me.ducky.projectg.menu.ItemCatalog;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 

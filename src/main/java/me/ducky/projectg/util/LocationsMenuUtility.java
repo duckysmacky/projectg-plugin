@@ -1,6 +1,6 @@
-package com.duckysmacky.projectg.util;
+package me.ducky.projectg.util;
 
-import com.duckysmacky.projectg.menu.ItemCatalog;
+import me.ducky.projectg.menu.ItemCatalog;
 import org.bukkit.*;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
