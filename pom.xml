@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -6,7 +7,7 @@
 
     <groupId>me.ducky</groupId>
     <artifactId>ProjectG</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <name>ProjectG</name>
@@ -39,7 +40,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputFile>C:\Users\nikdor\Documents\Minecraft\Servers\PvP Servers\Project G 2.0\plugins\ProjectG-1.1.jar</outputFile>
+                            <outputFile>C:\Users\nikdor\Documents\Minecraft\Servers\PvP Servers\Project G\plugins\ProjectG-1.2.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>

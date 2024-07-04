@@ -15,13 +15,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GunEquipFunction implements Listener {
-
     private Material lastGun = null;
     private Material lastAmmo = null;
     private Material lastSecondaryGun = null;
     private Material lastSecondaryAmmo = null;
     private int lastButtonSlot = 0;
     private int lastSecondaryButtonSlot = 0;
+
+    public GunEquipFunction() {}
 
     public void equipGun(Player player, String gunName, String gunType, String gunId, String ammoId, int ammoAmount, String gunRarity) {
         ItemStack gun = new ItemStack(Material.valueOf(gunId));

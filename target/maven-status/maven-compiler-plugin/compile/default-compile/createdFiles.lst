@@ -1,4 +1,12 @@
+me\ducky\projectg\util\MapSettingsUtility.class
+me\ducky\projectg\functions\GunEquipFunction.class
+me\ducky\projectg\util\GetButtonUtility.class
+me\ducky\projectg\listeners\MenuClickListener.class
+me\ducky\projectg\util\TeamsMenuUtility.class
+me\ducky\projectg\ProjectG.class
+me\ducky\projectg\functions\KitEquipFunction.class
 me\ducky\projectg\menu\ItemCatalog.class
+me\ducky\projectg\util\LocationsMenuUtility.class
+me\ducky\projectg\functions\GadgetEquipFunction.class
 me\ducky\projectg\util\GetMenuUtility.class
 me\ducky\projectg\menu\MenuCommand.class
-me\ducky\projectg\ProjectG.class
