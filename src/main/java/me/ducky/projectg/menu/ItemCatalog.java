@@ -32,8 +32,8 @@ public class ItemCatalog {
         {"Jetpack Kit", "skirmisher", "jetpack", "complex", "&fProvides you a jetpack which you can use in many different ways", "FEATHER"},
         {"Grapple Kit", "skirmisher", "grapple", "professional", "&fThe grappling hook gives many opportunities to relocate, flank or get into good angles", "STRING"},
         {"Demoman Kit", "skirmisher", "demoman", "professional", "&fFor the next three hundred years, people who needed to get to the second\nfloor used the only method available to them: shooting a rocket\nlauncher at their feet. Yes, it was ridiculous, crippling,\nand awful, but what are you going to do? Not go to the\nsecond floor? That's where your bed is.", "IRON_SPADE"},
-        {"Blade Kit (Crucible)", "skirmisher", "blade", "elite", "&fYou get a huge red blade which one-shots anyone, but it has limited uses (5)", "DIAMOND_SWORD"},
-        {"Blade Kit (Meteorite)", "skirmisher", "blade", "elite", "&c&lTHIS KIT ALREADY PROVIDES A MAIN WEAPON!\n&fYou are really fast, but lack in protection", "DIAMOND_SWORD"},
+        {"Blade Kit (Base)", "skirmisher", "blade", "elite", "&c&lTHIS KIT ALREADY PROVIDES A MAIN WEAPON!\n&fYou are really fast and do a lot of melee damage, but lack in protection\n&fVariants: &ablade_old, blade_crucible, blade_shield", "DIAMOND_SWORD"},
+        {"Enforcer", "skirmisher", "enforcer", "elite", "&c&lTHIS KIT ALREADY PROVIDES A MAIN AND SECONDARY WEAPON!\n&fYou get a bullet-blocking shield and a powerful two-short sword", "DIAMOND_AXE"},
         // ASSASSIN
         {"Pyro Kit", "assassin", "pyro", "basic", "&fKit provides a fire thrower and other fire-based utility", "LAVA_BUCKET"},
         {"Explosive Kit", "assassin", "explosive", "advanced", "&fKit provides a powerful homing rocket launcher and explosive utility", "FIREBALL"},
@@ -48,7 +48,7 @@ public class ItemCatalog {
         {"Engineer Kit", "sentinel", "engineer", "complex", "&fKit provides a bunch of turrets which can be placed and will shoot any foes", "SHULKER_SHELL"},
         {"Missile Kit", "sentinel", "missile", "professional", "&fKit provides powerful missiles which you can point and launch", "ARROW"},
         {"Artillery Kit", "sentinel", "artillery", "elite", "&fProvides a lot of different airstrikes to use on your enemies&fVariants: &aartillery_ray", "SPECTRAL_ARROW"},
-        {"Nuclear Kit", "sentinel", "nuclear", "elite", "&fThe name speaks for itself\n&fVariants: &anuclear_small, nuclear_medium, nuclear_big, nuclear_combo, nuclear_ray", "TNT"}
+        {"Nuclear Kit (Base)", "sentinel", "nuclear", "elite", "&fThe name speaks for itself\n&fVariants: &anuclear_small, nuclear_medium, nuclear_big, nuclear_combo, nuclear_ray", "TNT"}
     };
 
     private static String[][] gunCatalog = {
@@ -173,7 +173,7 @@ public class ItemCatalog {
             {"Trench Mask", "HBM_MASK_PISS", "1", "rare"},
             {"Golden Apple", "GOLDEN_APPLE", "5", "rare"},
             {"Chorus Fruit", "CHORUS_FRUIT", "16", "rare"},
-            {"Power Hammer", "TECHGUNS_POWERHAMMER", "1", "epic"},
+            {"Power Hammer (Get from creative)", "TECHGUNS_POWERHAMMER", "1", "epic"},
             {"XSAPI Insert", "HBM_INSERT_XSAPI", "1", "epic"},
             {"Ender Pearl", "ENDER_PEARL", "3", "epic"},
             {"Mining Charge", "TECHGUNS_EXPLOSIVE_CHARGE", "5", "epic"},
@@ -182,7 +182,8 @@ public class ItemCatalog {
             {"Velvet Band-Aid", "HBM_BANDAID", "1", "legendary"},
             //{"8 Inch Blade Autoinjector", "HBM_INJECTOR_KNIFE", "1", "legendary"},
             {"Elytra", "ELYTRA", "1", "legendary"},
-            {"Jumppack", "TECHGUNS_JUMPPACK", "1", "legendary"}
+            {"Bottle of Scrumpy", "HBM_SCRUMPY", "1", "legendary"},
+            {"Jumppack (Get from creative)", "TECHGUNS_JUMPPACK", "1", "legendary"}
     };
 
     private static String[][] teleportsCatalog = {

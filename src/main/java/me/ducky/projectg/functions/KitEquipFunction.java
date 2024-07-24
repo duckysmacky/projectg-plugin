@@ -8,7 +8,7 @@ import java.util.Random;
 
 import static org.bukkit.Bukkit.getServer;
 
-public class KitEquipFunction{
+public class  KitEquipFunction{
 
     public static void equipKit(Player player, String kitName) {
 
@@ -32,7 +32,7 @@ public class KitEquipFunction{
             GunEquipFunction gunEquipFunction = new GunEquipFunction();
             switch (kitID) {
                 case "sniper": {
-                    gunEquipFunction.equipGun(player, "NTW-20", "sniper_rifle", "MW_NTW_20", "MW_NTW20MAG", 6, "legendary");
+                    gunEquipFunction.equipGun(player, "NTW-20", "sniper_rifle", "MW_NTW_20", "MW_NTW20MAG", 3, "legendary");
                     break;
                 }
                 case "juggernaut": {
