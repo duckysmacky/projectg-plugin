@@ -3,14 +3,18 @@
 This is a Minecraft Java 1.12.2 plugin for a custom modded *gun pvp* gamemode, which is used to select different kits, choose guns to play with and do other gamemode-specific settigs.
 
 ## Features
+
 - Choose from many different kits and classes, each having a custom set of unique items and abilities
 - A big selection of guns from each category to play with (including secondaries)
 - Variery of settings to set up the gamemode (teams, kill tracking, etc)
 
 ## Required mods
+
 Since this is a plugin for a modded server, it obviously requires different mods to even play this (guns, gadgets, items, etc). I am unsure about a complete modlist, but it includes (but not limited to):
+
 - Vic's Modern Warfare
 - HBM Nuclear Tech Mod
+
 Other mods (mod IDs) can be found within the codebase. I can add a full list if needed, let me know.
 
 ---
